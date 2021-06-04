@@ -23,7 +23,7 @@ for i in range(w):
         if sum(img[i,j,:]) == 0:
             xys.append(str(i) + "\n")
             xys.append(str(j) + "\n")
-        elif img[i,j,2] - (img[i,j,1] + img[i,j,0]) > 50:
+        elif img[i,j,2] - img[i,j,1] > 50 and img[i,j,2] - img[i,j,0] > 50:
             t_xys.append(str(i) + "\n")
             t_xys.append(str(j) + "\n")
 

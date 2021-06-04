@@ -26,6 +26,13 @@
   <ItemGroup>
     <Compile Include="Image2Coordinates.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Example_Maps\Example_map_1.png" />
+    <Content Include="Example_Maps\Example_map_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Example_Maps\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
