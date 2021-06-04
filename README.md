@@ -37,7 +37,7 @@ After that, this file continues with the following line:
 "---TARGETS---"
 ```
 
-Hereafter, coordinates of the potential targets come into lines just like the ones of the obstacles.
+Hereafter, coordinates of the set of targets (if exists) come into lines just like the ones of the obstacles.
 
 Example:
 ```
