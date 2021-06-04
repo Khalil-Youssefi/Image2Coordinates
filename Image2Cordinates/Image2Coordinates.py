@@ -29,7 +29,7 @@ for i in range(w):
 
 f = open(os.path.splitext(mapfile)[0] + '.cxy','w')
 f.writelines(xys)
-f.write("---TARGETS---\n");
+f.write("\"---TARGETS---\"\n");
 f.writelines(t_xys)
 f.close()
 print ("Done!")
