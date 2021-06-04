@@ -1,4 +1,4 @@
-# Image2Cordinates
+# Image2Coordinates
 ## Requirements
 This code uses the following Python libraries:
 
