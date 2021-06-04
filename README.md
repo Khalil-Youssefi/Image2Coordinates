@@ -4,7 +4,6 @@ This code uses the following Python libraries:
 
  - opencv-python (https://pypi.org/project/opencv-python/) 
  - OS Module
- - 
 ## Usage
 Code inputs an Image-path and generates the corresponding coordinates map.
 
