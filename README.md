@@ -21,11 +21,16 @@ Please consider the provided examples.
 An output coordinates map includes a list of x coordinates which are immediately followed by y coordinates for obstacles.
 
 Example:
-  - x1
-  - y1
-  - x2
-  - y2
-  - .
+
+ x1
+ 
+ y1
+ 
+ x2
+ 
+ y2 
+ 
+ ....
 
 After that, this file continues with the following line:
 
@@ -34,15 +39,22 @@ After that, this file continues with the following line:
 Hereafter, coordinates of the potential targets come into lines just like the ones of the obstacles.
 
 Example:
-  - x1
-  - y1
-  - x2
-  - y2
-  - .
-  - ---TARGETS---
-  - x101
-  - y102
-  - .
+
+ x1
+ 
+ y1
+ 
+ ....
+ 
+ x99
+ 
+ y99
+ 
+ ---TARGETS---
+ 
+ x100
+ 
+ y100
 
 Please note that there are coordinates for every pixel of the obstacles.
 
